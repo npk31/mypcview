@@ -335,51 +335,53 @@
             }
         ]
 
-        let items = [];
+        
+        
+        const LoadItem = async () => {
+            const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
+            const items = res.data;
+    
+            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
+            historyChatAI.push({ role: "user", content: `${infoPc}` });
+            historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
-
-        const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
-        items = res.data;
-
-        const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
-        historyChatAI.push({ role: "user", content: `${infoPc}` });
-        historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
-
-
-        items.forEach(item => {
-            const itemElement = document.createElement('div');
-            itemElement.classList.add('item');
-
-            const imgElement = document.createElement('img');
-            imgElement.src = item.urlImg;
-
-            const pElement = document.createElement('p');
-            pElement.textContent = item.title;
-
-            const inputElement = document.createElement('input');
-            inputElement.value = item.value;
-            inputElement.disabled = true;
-
-            const buttonElement = document.createElement('button');
-            const linkElement = document.createElement('a');
-            linkElement.href = item.urlView;
-            linkElement.textContent = "Xem";
-            buttonElement.appendChild(linkElement);
-
-            itemElement.appendChild(imgElement);
-            itemElement.appendChild(pElement);
-            itemElement.appendChild(inputElement);
-            itemElement.appendChild(buttonElement);
-
-            itemsElement.appendChild(itemElement);
+            items.forEach(item => {
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('item');
+    
+                const imgElement = document.createElement('img');
+                imgElement.src = item.urlImg;
+    
+                const pElement = document.createElement('p');
+                pElement.textContent = item.title;
+    
+                const inputElement = document.createElement('input');
+                inputElement.value = item.value;
+                inputElement.disabled = true;
+    
+                const buttonElement = document.createElement('button');
+                const linkElement = document.createElement('a');
+                linkElement.href = item.urlView;
+                linkElement.textContent = "Xem";
+                buttonElement.appendChild(linkElement);
+    
+                itemElement.appendChild(imgElement);
+                itemElement.appendChild(pElement);
+                itemElement.appendChild(inputElement);
+                itemElement.appendChild(buttonElement);
+    
+                itemsElement.appendChild(itemElement);
+                
+                let str = item.value.replace("vnd", "").trim();
+                let num = Number(str.replace(/\./g, ""));
+    
+                total += num;
+            });
+    
+            document.querySelector(".total-value").innerHTML = total.toLocaleString() + " vnd";
             
-            let str = item.value.replace("vnd", "").trim();
-            let num = Number(str.replace(/\./g, ""));
+        }
 
-            total += num;
-        });
-
-        document.querySelector(".total-value").innerHTML = total.toLocaleString() + " vnd";
 
         btnOpen.onclick = () => {
             createAIContainer();
