@@ -345,6 +345,8 @@
             historyChatAI.push({ role: "user", content: `${infoPc}` });
             historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
+            console.log(items);
+
             items.forEach(item => {
                 const itemElement = document.createElement('div');
                 itemElement.classList.add('item');
