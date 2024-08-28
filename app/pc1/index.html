@@ -337,13 +337,14 @@
 
         let items = [];
 
-        (async () => {
-            const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
-            items = res.data;
 
-            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
-            historyChatAI.push({ role: "user", content: `${infoPc}` });
-        })();
+        const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
+        items = res.data;
+
+        const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
+        historyChatAI.push({ role: "user", content: `${infoPc}` });
+        historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
+
 
         items.forEach(item => {
             const itemElement = document.createElement('div');
