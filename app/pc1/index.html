@@ -329,10 +329,6 @@
                 "role": "system",
                 "content": "Bạn là một trợ lý ảo có thể giúp người dùng trả lời câu hỏi về công nghệ. Bạn chuyên trả lời các câu hỏi về AI"
             },
-            {
-                "role": "assistant",
-                "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"
-            }
         ]
 
         
@@ -340,12 +336,11 @@
         const LoadItem = async () => {
             const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
             const items = res.data;
-    
+
             const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
-            historyChatAI.push({ role: "user", content: `${infoPc}` });
+            historyChatAI.push({ role: "user", content: `${infoPc.data}` });
             historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
-            console.log(items);
 
             items.forEach(item => {
                 const itemElement = document.createElement('div');
