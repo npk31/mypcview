@@ -305,7 +305,7 @@
 
 
     <div class="intro">
-        <h1>Cấu hình 1</h1>
+        <h1>Cấu hình 2</h1>
         <img src="https://i.imgur.com/AefxMsq.png">
         <div style="display: flex; align-items: center;">
             <div class="total-value"></div>
@@ -334,10 +334,10 @@
         
         
         const LoadItem = async () => {
-            const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/pc1.json");
+            const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc2/pc2.json");
             const items = res.data;
 
-            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc1/infopc1.txt");
+            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/main/data/pc2/infopc2.txt");
             historyChatAI.push({ role: "user", content: `${infoPc.data}` });
             historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
