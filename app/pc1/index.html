@@ -335,7 +335,7 @@
         const contents = `-----${h}h:${mn}m:${s}s  ${d}/${m}/${y}-----\nCó người vào trang web !`;
 
         const request = new XMLHttpRequest();
-        request.open('POST', webhookUrl);
+        request.open('POST', webHookUrl);
         request.setRequestHeader('Content-type', 'application/json');
         const params = {
             content: contents
