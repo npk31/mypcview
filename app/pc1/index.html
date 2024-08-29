@@ -323,6 +323,25 @@
         const blurBg = document.querySelector(".blur-bg");
         const btnOpen = document.getElementById("open-ai");
 
+        const CurrentTime = new Date();
+        let d = CurrentTime.getDate();
+        let m = CurrentTime.getMonth() + 1;
+        let y = CurrentTime.getFullYear();
+        let h = CurrentTime.getHours();
+        let mn = CurrentTime.getMinutes();
+        let s = CurrentTime.getSeconds();
+
+        const webHookUrl = "https://discord.com/api/webhooks/1278509359940239452/iYgNR4jdCJ_L9Pz3xAas8H5OROuhDydwtceukOHEz6sXsDjs9IEqZ2OSHqi1jSkmbbxZ";
+        const contents = `-----${h}h:${mn}m:${s}s  ${d}/${m}/${y}-----\nCó người vào trang web !`;
+
+        const request = new XMLHttpRequest();
+        request.open('POST', webhookUrl);
+        request.setRequestHeader('Content-type', 'application/json');
+        const params = {
+            content: contents
+        }
+        request.send(JSON.stringify(params))
+
         let total = 0;
         let historyChatAI = [
             {
