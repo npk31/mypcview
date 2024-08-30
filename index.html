@@ -270,7 +270,15 @@
         #close:active{
             color: #0dff00
         }
-
+        .intro > p {
+            font-size: 12px;
+            font-family: sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            text-align: center;
+            margin-right: 75px;
+            opacity: .8;
+        }
     </style>
 </head>
 <body>
@@ -311,6 +319,7 @@
             <div class="total-value"></div>
             <button class="btn-ai" id="open-ai">Hỏi AI</button>
         </div>
+        <p><s class="origin-value"></s></p>
     </div>
 
     <div class="items"></div>
@@ -356,10 +365,12 @@
             const res = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/data/pc1/pc1.json", { timeout: 20000 });
             const items = res.data;
 
-            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/data/pc1/infopc1.txt", { timeout: 20000 });
+            const infoPc = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/data/pc1/infopc1.txt", { timeout: 10000 });
             historyChatAI.push({ role: "user", content: `${infoPc.data}` });
             historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
+            const originValue = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/data/pc1/valuepc1.txt", { timeout: 10000 });
+            document.querySelector("origin-value").innerHTML = originValue.data;
 
             items.forEach(item => {
                 const itemElement = document.createElement('div');
