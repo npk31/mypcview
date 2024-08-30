@@ -370,7 +370,7 @@
             historyChatAI.push({ "role": "assistant", "content": "Bạn có muốn đặt câu hỏi về cấu hình này không ?"});
 
             const originValue = await axios.get("https://raw.githubusercontent.com/npk31/mypcview/data/pc1/valuepc1.txt", { timeout: 10000 });
-            document.querySelector("origin-value").innerHTML = originValue.data;
+            document.querySelector(".origin-value").innerHTML = originValue.data;
 
             items.forEach(item => {
                 const itemElement = document.createElement('div');
