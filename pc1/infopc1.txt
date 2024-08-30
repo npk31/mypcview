@@ -1,7 +1,7 @@
 Mainboard Asus A520M-K Prime,
 AMD Ryzen 5 4600G,
 VGA ASUS Dual GeForce RTX 4060 White OC Edition 8GB GDDR6,
-Ram DDR4 Kingston 16GB 3200Mhz Fury Beast,
+Ram PATRIOT Viper Steel RGB 32GB,
 SSD Kioxia Exceria Plus G3 1TB,
 Tản nhiệt CPU Segotep Lumos G6 LED ARGB,
 Keo tản nhiệt Cooler Master PTK-L01 ,
