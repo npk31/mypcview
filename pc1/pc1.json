@@ -28,54 +28,18 @@
         "urlView": "https://tinhocngoisao.com/products/o-cung-ssd-kioxia-exceria-plus-g3-1tb",
         "value": "1.499.000 vnd",
         "urlImg": "https://i.imgur.com/tWH5VCI.png"
-    },
-    {
-        "title": "Quạt tản nhiệt CPU Segotep Lumos G6 LED ARGB",
-        "urlView": "https://tinhocngoisao.com/products/tan-nhiet-cpu-segotep-lumos-g6-led-argb",
-        "value": "539.000 vnd",
-        "urlImg": "https://i.imgur.com/Z6zbnfK.png"
-    },
+    },    
     {
         "title": "Nguồn Antec Cuprum Strike CSK 550W | 550W, Bronze",
         "urlView": "https://tinhocngoisao.com/products/nguon-antec-cuprum-strike-csk-550w-550w-bronze",
         "value": "899.000 vnd",
         "urlImg": "https://i.imgur.com/aqVZa6x.png"
-    },
-    {
-        "title": "Thùng máy Case Antec AX20 Elite RGB - Black | Kèm sẵn 4 fan RGB",
-        "urlView": "https://tinhocngoisao.com/products/thung-may-case-antec-ax20-elite-rgb-black-kem-san-4-fan-rgb?ref_f4l=MTg4NDU3fQeyJjaWQiOjEsInBpZCI6IjUxNDk1ODkxODUyMDA4OSIsImZiaWQiOiI4MzMwMzEwMjg3MDM1MzcyIiwidHMiOjE3MjQ4OTU4ODYyNjcsImFpZCI6MjAwMDAxMTg4NDU3fQ&fbclid=IwY2xjawE8ujNleHRuA2FlbQIxMAABHeQagYIwaO-TgDP4EJEobxusi3Mpq53hE1ZjmhulWjiiEaybAfq6foUgHw_aem_J62u9jy9uQxMs6jAAbZKBg",
-        "value": "609.000 vnd",
-        "urlImg": "https://i.imgur.com/m3PnGCp.png"
-    },
+    },    
     {
         "title": "Ram DDR4 Kingston 16GB 3200Mhz Fury Beast",
         "urlView": "https://tinhocngoisao.com/products/ram-ddr4-corsair-16g-3200-vengeance-lpx-1x-16gb-cmk16gx4m1e3200c16",
         "value": "819.000 vnd",
         "urlImg": "https://i.imgur.com/BrgWYP4.png"
-    },
-    {
-        "title": "Bàn phím cơ E-Dra không dây EK368L Alpha Red Switch",
-        "urlView": "https://cellphones.com.vn/ban-phim-co-e-dra-khong-day-ek368l-alpha-red-switch.html",
-        "value": "499.000 vnd",
-        "urlImg": "https://i.imgur.com/xStcHfd.png"
-    },
-    {
-        "title": "Keo tản nhiệt Cooler Master PTK-L01",
-        "urlView": "https://tinhocngoisao.com/products/keo-tan-nhiet-deepcool-z10-5g",
-        "value": "48.000 vnd",
-        "urlImg": "https://i.imgur.com/tLIArd2.png"
-    },
-    {
-        "title": "Chuột không dây Ugreen Silent MU006",
-        "urlView": "https://cellphones.com.vn/chuot-khong-day-ugreen-silent-mu006.html",
-        "value": "189.000 vnd",
-        "urlImg": "https://i.imgur.com/Qia249H.png"
-    },
-    {
-        "title": "Lót chuột laser Razer",
-        "urlView": "https://tinhocngoisao.com/products/lot-chuot-laser-razer-230-300-5mm-size-vua-san-co-vien",
-        "value": "17.000 vnd",
-        "urlImg": "https://i.imgur.com/odrycK3.png"
     },
     {
         "title": "Card PCIE Wifi 6 Asus PCE-AX3000",
@@ -84,15 +48,51 @@
         "urlImg": "https://i.imgur.com/hj5mdQM.png"
     },
     {
+        "title": "Thùng máy Case Antec AX20 Elite RGB - Black | Kèm sẵn 4 fan RGB",
+        "urlView": "https://tinhocngoisao.com/products/thung-may-case-antec-ax20-elite-rgb-black-kem-san-4-fan-rgb?ref_f4l=MTg4NDU3fQeyJjaWQiOjEsInBpZCI6IjUxNDk1ODkxODUyMDA4OSIsImZiaWQiOiI4MzMwMzEwMjg3MDM1MzcyIiwidHMiOjE3MjQ4OTU4ODYyNjcsImFpZCI6MjAwMDAxMTg4NDU3fQ&fbclid=IwY2xjawE8ujNleHRuA2FlbQIxMAABHeQagYIwaO-TgDP4EJEobxusi3Mpq53hE1ZjmhulWjiiEaybAfq6foUgHw_aem_J62u9jy9uQxMs6jAAbZKBg",
+        "value": "609.000 vnd",
+        "urlImg": "https://i.imgur.com/m3PnGCp.png"
+    },
+    {
+        "title": "Quạt tản nhiệt CPU Segotep Lumos G6 LED ARGB",
+        "urlView": "https://tinhocngoisao.com/products/tan-nhiet-cpu-segotep-lumos-g6-led-argb",
+        "value": "539.000 vnd",
+        "urlImg": "https://i.imgur.com/Z6zbnfK.png"
+    },
+    {
+        "title": "Bàn phím cơ E-Dra không dây EK368L Alpha Red Switch",
+        "urlView": "https://cellphones.com.vn/ban-phim-co-e-dra-khong-day-ek368l-alpha-red-switch.html",
+        "value": "499.000 vnd",
+        "urlImg": "https://i.imgur.com/xStcHfd.png"
+    },
+    {
         "title": "Webcam DAHUA HTI UF2 Conference Brigde USB",
         "urlView": "https://tinhocngoisao.com/products/webcam-dahua-hti-uf2-conference-brigde-usb",
         "value": "189.000 vnd",
         "urlImg": "https://i.imgur.com/vVXXDgV.png"
     },
     {
+        "title": "Chuột không dây Ugreen Silent MU006",
+        "urlView": "https://cellphones.com.vn/chuot-khong-day-ugreen-silent-mu006.html",
+        "value": "189.000 vnd",
+        "urlImg": "https://i.imgur.com/Qia249H.png"
+    },
+    {
         "title": "USB 3.2 Kingston DataTraveler Exodia Onyx 64GB",
         "urlView": "https://cellphones.com.vn/usb-3-2-kingston-datatraveler-exodia-onyx-64gb.html",
         "value": "129.000 vnd",
         "urlImg": "https://i.imgur.com/sj6igcb.png"
+    },
+    {
+        "title": "Keo tản nhiệt Cooler Master PTK-L01",
+        "urlView": "https://tinhocngoisao.com/products/keo-tan-nhiet-cooler-master-ptk-l01",
+        "value": "48.000 vnd",
+        "urlImg": "https://i.imgur.com/tLIArd2.png"
+    },
+    {
+        "title": "Lót chuột laser Razer",
+        "urlView": "https://tinhocngoisao.com/products/lot-chuot-laser-razer-230-300-5mm-size-vua-san-co-vien",
+        "value": "17.000 vnd",
+        "urlImg": "https://i.imgur.com/odrycK3.png"
     }
 ]
