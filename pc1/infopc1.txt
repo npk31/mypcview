@@ -1,16 +1,15 @@
-Mainboard Asus A520M-K Prime,
-AMD Ryzen 5 4600G,
-VGA ASUS Dual GeForce RTX 4060 White OC Edition 8GB GDDR6,
-Ram PATRIOT Viper Steel RGB 32GB,
-SSD Kioxia Exceria Plus G3 1TB,
-Tản nhiệt CPU Segotep Lumos G6 LED ARGB,
-Keo tản nhiệt Cooler Master PTK-L01 ,
-Case Antec AX20 Elite RGB - Black,
-Nguồn Antec Cuprum Strike CSK 550W,
-Màn hình Xiaomi Redmi 1A P24FBB-RA,
-Bàn phím cơ E-Dra không dây EK368L Alpha Red Switch,
-Chuột không dây Ugreen Silent MU006,
-Lót chuột laser Razer,
-Card Wifi ASUS PCE-AX3000,
-Webcam DAHUA HTI UF2 Conference Brigde USB,
-USB 3.2 Kingston DataTraveler Exodia Onyx 64GB,
+Mainboard GIGABYTE B550M Aorus Elite AX
+Cpu AMD Ryzen 5 5600G
+VGA ASUS Dual GeForce RTX 4060 White OC Edition 8GB GDDR6 (DUAL-RTX4060-O8G-WHITE)
+Ram DDR4 Kingston 16GB 3200Mhz Fury Beast
+SSD Kioxia Exceria Plus G3 1TB 
+Tản nhiệt CPU Segotep Lumos G6 LED ARGB
+Keo tản nhiệt Cooler Master PTK-L01 
+Thùng máy Case Antec AX20 Elite RGB - Black | Kèm sẵn 4 fan RGB 
+Nguồn máy tính Antec Atom B750
+Màn hình Xiaomi Redmi 1A P24FBB-RA
+Bàn phím cơ E-Dra không dây EK368L Alpha Red Switch 
+Chuột không dây Ugreen Silent MU006
+Lót chuột laser Razer
+Webcam DAHUA HTI UF2 Conference Brigde USB
+USB 3.2 Kingston DataTraveler Exodia Onyx 64GB
